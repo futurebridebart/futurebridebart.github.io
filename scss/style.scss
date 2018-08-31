@@ -70,11 +70,19 @@ nav .nav-link.active {
   .container {
     margin-top: 4em;
   }
+  .row {
+    align-items: center;
+    justify-content: center;
+  }
 
   .info-text {
     text-align: center;
     color: #aba9a9;
     font-size: 1em;
+
+    p {
+      font-size: 20px;
+    }
 
     .stdout {
       font-family: 'Pinyon Script', cursive;
@@ -127,7 +135,7 @@ nav .nav-link.active {
   }
   .desc {
     p {
-      font-size: 22px;
+      font-size: 20px;
       > span {
         text-transform: uppercase;
         font-size: 1rem;
@@ -288,7 +296,7 @@ nav .nav-link.active {
     margin-bottom: 4rem;
   }
   p {
-    font-size: 22px;
+    font-size: 20px;
   }
   .image img {
     max-width: 100%;
@@ -303,5 +311,11 @@ nav .nav-link.active {
     justify-content: center;
     align-items: center;
     margin: 0 0 100px 0;
+  }
+}
+
+footer {
+  iframe {
+    width: 100%;
   }
 }
